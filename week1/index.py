@@ -80,6 +80,7 @@ mappings = {
 "shippingWeight": "shippingWeight/text()",
 "width": "width/text()",
 "features": "features/*/text()"  # Note the match all here to get the subfields
+
 }
 '''
 "startDate": "startDate/text()",
@@ -93,9 +94,9 @@ mappings = {
 "artistName": "artistName/text()",
 "onSale": "onSale/text()",
 "digital": "digital/text()",
-"frequentlyPurchasedWith": "frequentlyPurchasedWith/text()",  # Note the match all here to get the subfields
-"accessories": "accessories/text()" ,  # Note the match all here to get the subfields
-"relatedProducts": "relatedProducts/text()",  # Note the match all here to get the subfields
+"frequentlyPurchasedWith": "frequentlyPurchasedWith/*/text()",  # Note the match all here to get the subfields
+"accessories": "accessories/*/text()" ,  # Note the match all here to get the subfields
+"relatedProducts": "relatedProducts/*/text()",  # Note the match all here to get the subfields
 "crossSell": "crossSell/text()",
 "salesRankShortTerm": "salesRankShortTerm/text()",
 "salesRankMediumTerm": "salesRankMediumTerm/text()",
